@@ -1,3 +1,3 @@
-# Dataset: A 6-DoF Inertial Tracking Dataset Using Commodity Smatphones
+# Dataset: Motion Tracklet Oriented 6-DoF Inertial Tracking Using Commodity Smartphones
 
 Github under construction.
