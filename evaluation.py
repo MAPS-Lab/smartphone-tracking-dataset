@@ -32,7 +32,7 @@ torch.manual_seed(seed)
 
 model = lstm_activity(x_dim, h_dim, batch_size, n_layers, output_dim)
 
-model_path = './saves/training_23/lstm_state_dict_' + str(model_id) + '.pth'
+model_path = './saves/lstm_state_dict_' + str(model_id) + '.pth'
 model.load_state_dict(torch.load(model_path))
 model.eval()
 

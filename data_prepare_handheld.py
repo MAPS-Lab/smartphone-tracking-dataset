@@ -93,11 +93,11 @@ batch_size = 400
 
 print("input samsung tracking data")
 data_x = np.loadtxt(
-    "../../handheld/samsung/x_50_10_3.csv", delimiter=",")
+    "./training_data/len50_stride10_session3_x.csv", delimiter=",")
 data_y = np.loadtxt(
-    "../../handheld/samsung/y_50_10_3.csv", delimiter=",")
+    "./training_data/len50_stride10_session3_y.csv", delimiter=",")
 data_gt_all = np.loadtxt(
-    "../../handheld/samsung/gt_50_10_3.csv", delimiter=",")
+    "./training_data/len50_stride10_session3_gt.csv", delimiter=",")
 # data_y = data_y[:, 4:7]  # Training for Translation
 # data_y = data_y[:, :4]  # Training for Rotation
 # len_x = int(len(data_x) / batch_size) * batch_size
